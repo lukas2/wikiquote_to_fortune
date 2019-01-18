@@ -11,7 +11,6 @@ end
 
 page = ARGV[0]
 url = "https://en.wikiquote.org/w/index.php?action=edit&title=#{ARGV[0].gsub("\s","_")}"
-puts url
 
 # parse and extract quotes
 
